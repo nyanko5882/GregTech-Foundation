@@ -1,9 +1,9 @@
 **English is under**
-# GregTech-Beginning
+# GregTech-Foundation
 初心者のためのGTCEu入門モッドパックです。
 # タイトル
-**GregTech: Beginning**
-略称は**GTB**です。
+**GregTech: Foundation**
+略称は**GTF**です。
 # 1.概要
 `Nomi ceu`や`GTCEu Community Pack`はハードルが高い......もっと初心者に優しい、進めやすいModpackがあればいいのに......
 そんな考えから生まれた、進めやすくも楽しさは損なわない、そんなModpackです。
@@ -38,22 +38,22 @@ GTCEuを使用します。
 * [GTB開発日記 #02](https://note.com/noname_84713/n/n3bb1cd3d447a)
 # 6.ライセンス・二次利用について
 * kubejsスクリプトやconfigなど、**zipに含まれるファイル**については、作者クレジット(@nyanko5882)をつけることを条件として、改変そして二次利用・二次配布を許可します。
-* 二次配布された作品に対し、**GTB公式と誤認させる行為**は**禁止**します。
-* 導入ModにはGTBの権利は適用されず、**各Modの作者に帰属します**。特に二次配布をする際には、各Modのページを漏れなく確認するようにしてください。
+* 二次配布された作品に対し、**GTF公式と誤認させる行為**は**禁止**します。
+* 導入ModにはGTFの権利は適用されず、**各Modの作者に帰属します**。特に二次配布をする際には、各Modのページを漏れなく確認するようにしてください。
 # 7.クレジット
 [@nyanko5882](https://github.com/nyanko5882)
 # 8.貢献について
 バグ報告・レシピやバランスの改善案などあれば、Note開発日記のコメント欄やGitHub Issuesまでよろしくお願いします。
 # 9.リンク
 [Note](https://note.com/noname_84713)
-[Discord](https://discord.gg/ZCwSvGVUE)
+[Discord](https://discord.gg/gZe7eptTs)
 ---
 
-# GregTech-Beginning
+# GregTech-Foundation
 A GTCEu modpack designed as an introduction to GregTech for beginners.
 # Title
-**GregTech: Beginning**
-Abbreviated as **GTB**.
+**GregTech: Foundation**
+Abbreviated as **GTF**.
 # 1. Overview
 `Nomifactory CEu` and `GTCEu Community Pack` can be quite challenging...
 “What if there were a more beginner-friendly GregTech modpack that is easier to progress through?”
@@ -90,12 +90,12 @@ The goal is to make GregTech easier to progress through while keeping it enjoyab
 * [GTB Development Journal #02](https://note.com/noname_84713/n/n3bb1cd3d447a)
 # 6. License & Redistribution
 * Files included in the GTB ZIP, such as KubeJS scripts and config files, may be modified, reused, and redistributed, provided that credit is given to the author (`@nyanko5882`).
-* **Redistributed versions must not be presented or implied to be the official GTB release.**
-* The mods included in GTB are **not covered by GTB's rights** and remain the property of their respective authors. When redistributing GTB or a modified version, please make sure to check the distribution terms of every included mod.
+* **Redistributed versions must not be presented or implied to be the official GTF release.**
+* The mods included in GTB are **not covered by GTF's rights** and remain the property of their respective authors. When redistributing GTB or a modified version, please make sure to check the distribution terms of every included mod.
 # 7. Credits
 [@nyanko5882](https://github.com/nyanko5882)
 # 8. Contributing
 If you have bug reports, recipe suggestions, balance suggestions, or other feedback, please leave a comment on the Note development journal or open an issue on GitHub.
 # 9. Links
 [Note](https://note.com/noname_84713)
-[Discord](https://discord.gg/ZCwSvGVUE)
+[Discord](https://discord.gg/gZe7eptTs)
