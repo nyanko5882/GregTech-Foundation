@@ -89,9 +89,9 @@ The goal is to make GregTech easier to progress through while keeping it enjoyab
 * [GTB Development Journal #01](https://note.com/noname_84713/n/n7db49b10ff36)
 * [GTB Development Journal #02](https://note.com/noname_84713/n/n3bb1cd3d447a)
 # 6. License & Redistribution
-* Files included in the GTB ZIP, such as KubeJS scripts and config files, may be modified, reused, and redistributed, provided that credit is given to the author (`@nyanko5882`).
+* Files included in the GTF ZIP, such as KubeJS scripts and config files, may be modified, reused, and redistributed, provided that credit is given to the author (`@nyanko5882`).
 * **Redistributed versions must not be presented or implied to be the official GTF release.**
-* The mods included in GTB are **not covered by GTF's rights** and remain the property of their respective authors. When redistributing GTB or a modified version, please make sure to check the distribution terms of every included mod.
+* The mods included in GTF are **not covered by GTF's rights** and remain the property of their respective authors. When redistributing GTF or a modified version, please make sure to check the distribution terms of every included mod.
 # 7. Credits
 [@nyanko5882](https://github.com/nyanko5882)
 # 8. Contributing
