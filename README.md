@@ -34,8 +34,11 @@ GTCEuを使用します。
 2. `Prism Launcher`または`Curseforge Launcher`にインポートします
 3. 通常通り起動します。
 # 5.開発日記
-* [GTB開発日記 #01](https://note.com/noname_84713/n/n7db49b10ff36)
-* [GTB開発日記 #02](https://note.com/noname_84713/n/n3bb1cd3d447a)
+* [GTF開発日記リスト](https://note.com/noname_84713/m/m76ebb4070f8d)
+* [GTF開発日記 #01](https://note.com/noname_84713/n/n7db49b10ff36)
+* [GTF開発日記 #02](https://note.com/noname_84713/n/n3bb1cd3d447a)
+* [GTF開発日記 #2.5](https://note.com/noname_84713/n/ned6491cd22fc)
+* [GTF開発日記 #03](https://note.com/noname_84713/n/n1079841f1228)
 # 6.ライセンス・二次利用について
 * kubejsスクリプトやconfigなど、**zipに含まれるファイル**については、作者クレジット(@nyanko5882)をつけることを条件として、改変そして二次利用・二次配布を許可します。
 * 二次配布された作品に対し、**GTF公式と誤認させる行為**は**禁止**します。
@@ -47,6 +50,7 @@ GTCEuを使用します。
 # 9.リンク
 [Note](https://note.com/noname_84713)
 [Discord](https://discord.gg/gZe7eptTs)
+[Curseforge](https://www.curseforge.com/minecraft/modpacks/gregtech-foundation)
 ---
 
 # GregTech-Foundation
@@ -86,8 +90,11 @@ The goal is to make GregTech easier to progress through while keeping it enjoyab
 2. Import it into `Prism Launcher` or `CurseForge Launcher`.
 3. Launch the modpack as usual.
 # 5. Development Journal
-* [GTB Development Journal #01](https://note.com/noname_84713/n/n7db49b10ff36)
-* [GTB Development Journal #02](https://note.com/noname_84713/n/n3bb1cd3d447a)
+* [GTF Development Journal List](https://note.com/noname_84713/m/m76ebb4070f8d)
+* [GTF Development Journal #01](https://note.com/noname_84713/n/n7db49b10ff36)
+* [GTF Development Journal #02](https://note.com/noname_84713/n/n3bb1cd3d447a)
+* [GTF Development Journal #2.5](https://note.com/noname_84713/n/ned6491cd22fc)
+* [GTF Development Journal #03](https://note.com/noname_84713/n/n1079841f1228)
 # 6. License & Redistribution
 * Files included in the GTF ZIP, such as KubeJS scripts and config files, may be modified, reused, and redistributed, provided that credit is given to the author (`@nyanko5882`).
 * **Redistributed versions must not be presented or implied to be the official GTF release.**
@@ -99,3 +106,4 @@ If you have bug reports, recipe suggestions, balance suggestions, or other feedb
 # 9. Links
 [Note](https://note.com/noname_84713)
 [Discord](https://discord.gg/gZe7eptTs)
+[Curseforge](https://www.curseforge.com/minecraft/modpacks/gregtech-foundation)
