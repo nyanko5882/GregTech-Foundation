@@ -1,0 +1,225 @@
+ServerEvents.recipes(event => {
+    //
+    //sapling
+    //
+    const sapling = [
+        "oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "cherry"
+    ];
+    sapling.forEach(type => {
+        event.custom({
+            "type":"exdeorum:sieve",
+            "ingredient":{"item":"minecraft:dirt"},
+            "mesh":"exdeorum:string_mesh",
+            "result":`minecraft:${type}_sapling`,
+            "result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.05}
+        });
+        event.custom({
+            "type":"exdeorum:sieve",
+            "ingredient":{"item":"minecraft:dirt"},
+            "mesh":"exdeorum:flint_mesh",
+            "result":`minecraft:${type}_sapling`,
+            "result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.08}
+        });
+        event.custom({
+            "type":"exdeorum:sieve",
+            "ingredient":{"item":"minecraft:dirt"},
+            "mesh":"exdeorum:iron_mesh",
+            "result":`minecraft:${type}_sapling`,
+            "result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.1}
+        });
+        event.custom({
+            "type":"exdeorum:sieve",
+            "ingredient":{"item":"minecraft:dirt"},
+            "mesh":"exdeorum:golden_mesh",
+            "result":`minecraft:${type}_sapling`,
+            "result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.15}
+        });
+        event.custom({
+            "type":"exdeorum:sieve",
+            "ingredient":{"item":"minecraft:dirt"},
+            "mesh":"exdeorum:diamond_mesh",
+            "result":`minecraft:${type}_sapling`,
+            "result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.25}
+        });
+        event.custom({
+            "type":"exdeorum:sieve",
+            "ingredient":{"item":"minecraft:dirt"},
+            "mesh":"exdeorum:netherite_mesh",
+            "result":`minecraft:${type}_sapling`,
+            "result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.50}
+        });
+    })
+    event.custom({
+        "type":"exdeorum:sieve",
+        "ingredient":{"item":"minecraft:dirt"},
+        "mesh":"exdeorum:string_mesh",
+        "result":"minecraft:mangrove_propagule",
+        "result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.05}
+    });
+    event.custom({
+        "type":"exdeorum:sieve",
+        "ingredient":{"item":"minecraft:dirt"},
+        "mesh":"exdeorum:flint_mesh",
+        "result":"minecraft:mangrove_propagule",
+        "result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.08}
+    });
+    event.custom({
+        "type":"exdeorum:sieve",
+        "ingredient":{"item":"minecraft:dirt"},
+        "mesh":"exdeorum:iron_mesh",
+        "result":"minecraft:mangrove_propagule",
+        "result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.1}
+    });
+    event.custom({
+        "type":"exdeorum:sieve",
+        "ingredient":{"item":"minecraft:dirt"},
+        "mesh":"exdeorum:golden_mesh",
+        "result":"minecraft:mangrove_propagule",
+        "result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.15}
+    });
+    event.custom({
+        "type":"exdeorum:sieve",
+        "ingredient":{"item":"minecraft:dirt"},
+        "mesh":"exdeorum:diamond_mesh",
+        "result":"minecraft:mangrove_propagule",
+        "result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.25}
+    });
+    event.custom({
+        "type":"exdeorum:sieve",
+        "ingredient":{"item":"minecraft:dirt"},
+        "mesh":"exdeorum:netherite_mesh",
+        "result":"minecraft:mangrove_propagule",
+        "result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.50}
+    });
+    event.custom({
+        "type":"exdeorum:sieve",
+        "ingredient":{"item":"minecraft:dirt"},
+        "mesh":"exdeorum:string_mesh",
+        "result":"gtceu:rubber_sapling",
+        "result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.05}
+    });
+    event.custom({
+        "type":"exdeorum:sieve",
+        "ingredient":{"item":"minecraft:dirt"},
+        "mesh":"exdeorum:flint_mesh",
+        "result":"gtceu:rubber_sapling",
+        "result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.08}
+    });
+    event.custom({
+        "type":"exdeorum:sieve",
+        "ingredient":{"item":"minecraft:dirt"},
+        "mesh":"exdeorum:iron_mesh",
+        "result":"gtceu:rubber_sapling",
+        "result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.1}
+    });
+    event.custom({
+        "type":"exdeorum:sieve",
+        "ingredient":{"item":"minecraft:dirt"},
+        "mesh":"exdeorum:golden_mesh",
+        "result":"gtceu:rubber_sapling",
+        "result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.15}
+    });
+    event.custom({
+        "type":"exdeorum:sieve",
+        "ingredient":{"item":"minecraft:dirt"},
+        "mesh":"exdeorum:diamond_mesh",
+        "result":"gtceu:rubber_sapling",
+        "result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.25}
+    });
+    event.custom({
+        "type":"exdeorum:sieve",
+        "ingredient":{"item":"minecraft:dirt"},
+        "mesh":"exdeorum:netherite_mesh",
+        "result":"gtceu:rubber_sapling",
+        "result_amount":{"type":"minecraft:binomial","n":1.0,"p":0.50}
+    });
+
+    //
+    //material dusts
+    //
+    const stringOre = [
+        "coal", "iron", "copper", "tin"
+    ];
+    stringOre.forEach(type => {
+        event.custom({
+            "type":"exdeorum:sieve",
+            "ingredient":{"item":"minecraft:gravel"},
+            "mesh":"exdeorum:string_mesh",
+            "result":`gtceu:tiny_${type}_dust`,
+            "result_amount":{"type":"minecraft:binomial","n":2.0,"p":0.4}
+        });
+        event.custom({
+            "type":"exdeorum:sieve",
+            "ingredient":{"item":"minecraft:gravel"},
+            "mesh":"exdeorum:flint_mesh",
+            "result":`gtceu:small_${type}_dust`,
+            "result_amount":{"type":"minecraft:binomial","n":2.0,"p":0.3}
+        });
+    });
+    event.custom({
+        "type":"exdeorum:sieve",
+        "ingredient":{"item":"minecraft:gravel"},
+        "mesh":"exdeorum:flint_mesh",
+        "result":"minecraft:redstone",
+        "result_amount":{"type":"minecraft:binomial","n":2.0,"p":0.5}
+    });
+    event.custom({
+        "type":"exdeorum:sieve",
+        "ingredient":{"item":"minecraft:gravel"},
+        "mesh":"exdeorum:flint_mesh",
+        "result":"minecraft:diamond",
+        "result_amount":{"type":"minecraft:binomial","n":2.0,"p":0.05}
+    });
+    event.custom({
+        "type":"exdeorum:sieve",
+        "ingredient":{"item":"minecraft:gravel"},
+        "mesh":"exdeorum:flint_mesh",
+        "result":"gtceu:tiny_lead_dust",
+        "result_amount":{"type":"minecraft:binomial","n":2.0,"p":0.35}
+    });
+    event.custom({
+        "type":"exdeorum:sieve",
+        "ingredient":{"item":"minecraft:gravel"},
+        "mesh":"exdeorum:flint_mesh",
+        "result":"gtceu:tiny_silver_dust",
+        "result_amount":{"type":"minecraft:binomial","n":2.0,"p":0.35}
+    });
+    event.custom({
+        "type":"exdeorum:sieve",
+        "ingredient":{"item":"minecraft:gravel"},
+        "mesh":"exdeorum:flint_mesh",
+        "result":"gtceu:small_sulfur_dust",
+        "result_amount":{"type":"minecraft:binomial","n":2.0,"p":0.7}
+    });
+
+    //
+    //plants
+    //
+    const plant = [
+        ["wheat_seeds", 0.2],
+        ["beetroot_seeds", 0.1],
+        ["pumpkin_seeds", 0.1],
+        ["melon_seeds", 0.1],
+        ["cocoa_beans", 0.1],
+        ["sweet_berries", 0.08],
+        ["glow_berries", 0.04],
+        ["sugar_cane", 0.08],
+        ["bamboo", 0.05]
+    ];
+    plant.forEach(type => {
+        event.custom({
+            "type":"exdeorum:sieve",
+            "ingredient":{"tag":"minecraft:sand"},
+            "mesh":"exdeorum:string_mesh",
+            "result":`minecraft:${type[0]}`,
+            "result_amount":{"type":"minecraft:binomial","n":1,"p":type[1]}
+        });
+        event.custom({
+            "type":"exdeorum:sieve",
+            "ingredient":{"tag":"minecraft:sand"},
+            "mesh":"exdeorum:flint_mesh",
+            "result":`minecraft:${type[0]}`,
+            "result_amount":{"type":"minecraft:binomial","n":1,"p":type[1]*2}
+        });
+    });
+})
