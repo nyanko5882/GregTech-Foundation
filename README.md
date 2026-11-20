@@ -39,6 +39,7 @@ GTCEuを使用します。
 * [GTF開発日記 #02](https://note.com/noname_84713/n/n3bb1cd3d447a)
 * [GTF開発日記 #2.5](https://note.com/noname_84713/n/ned6491cd22fc)
 * [GTF開発日記 #03](https://note.com/noname_84713/n/n1079841f1228)
+* [GTF開発日記 #04](https://note.com/noname_84713/n/neebfb7036f95)
 # 6.ライセンス・二次利用について
 * kubejsスクリプトやconfigなど、**zipに含まれるファイル**については、作者クレジット(@nyanko5882)をつけることを条件として、改変そして二次利用・二次配布を許可します。
 * 二次配布された作品に対し、**GTF公式と誤認させる行為**は**禁止**します。
@@ -95,6 +96,7 @@ The goal is to make GregTech easier to progress through while keeping it enjoyab
 * [GTF Development Journal #02](https://note.com/noname_84713/n/n3bb1cd3d447a)
 * [GTF Development Journal #2.5](https://note.com/noname_84713/n/ned6491cd22fc)
 * [GTF Development Journal #03](https://note.com/noname_84713/n/n1079841f1228)
+* [GTF Development Journal #04](https://note.com/noname_84713/n/neebfb7036f95)
 # 6. License & Redistribution
 * Files included in the GTF ZIP, such as KubeJS scripts and config files, may be modified, reused, and redistributed, provided that credit is given to the author (`@nyanko5882`).
 * **Redistributed versions must not be presented or implied to be the official GTF release.**
